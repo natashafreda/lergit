@@ -15,6 +15,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # ------------------------
 # 1. 定义BERT嵌入提取器
+# 真的
 # ------------------------
 class BertEmbeddingExtractor:
     def __init__(self, model_name="bert-base-uncased"):
